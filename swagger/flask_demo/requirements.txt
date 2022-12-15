@@ -1,0 +1,4 @@
+# requirements.txt
+Flask
+flask-restx
+Werkzeug
