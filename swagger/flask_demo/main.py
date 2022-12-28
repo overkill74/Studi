@@ -5,7 +5,8 @@ from blueprints.jinja_endpoint import blueprint as jinja_template_blueprint
 from blueprints.documented_endpoints import blueprint as documented_endpoint
 
 app = Flask(__name__)
-app.config['RESTPLUS_MASK_SWAGGER'] = False
+app.config['RESTPLUS_MASK_SWAGGER'] = True
+app.config.SWAGGER_UI_DOC_EXPANSION = 'list'
 
 app.register_blueprint(basic_endpoints)
 app.register_blueprint(jinja_template_blueprint)
