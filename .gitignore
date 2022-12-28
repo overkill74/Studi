@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Misc
+/swagger/flask_demo
+
+# TestArea
+/react_tutorial/test-area
+
+
+
